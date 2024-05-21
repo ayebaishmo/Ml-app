@@ -1,8 +1,8 @@
 from flask import Flask, render_template
 
+
 # create flask factory
 def create_app():
-
     app = Flask(__name__)
     my_var = "Twittoff App"
 
